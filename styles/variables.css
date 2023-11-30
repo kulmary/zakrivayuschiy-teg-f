@@ -1,7 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-font-style: Inter, sans-serif;
-  --accent-font-style: "Press Start 2P", Arial;
+  --accent-font-style: "Press Start 2P", Arial, sans-serif;
+  --floppy-size: 21px;
 }
 
 @media (prefers-color-scheme: light) {
