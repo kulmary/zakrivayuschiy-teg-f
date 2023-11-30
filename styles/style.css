@@ -168,7 +168,7 @@
 
 .main__section-heading {
   font-size: 18px;
-  margin:5px 10px;
+  margin: 5px 10px;
   font-variation-settings: "wght" var(--headings-font-weight), "wdth" 100,
     "opsz" 0;
 }
@@ -196,7 +196,7 @@
   font-weight: 400;
   font-size: 14px;
   position: absolute;
-  z-index:1;
+  z-index: 1;
   right: 11px;
   top: 23px;
   color: var(--accent-color);
@@ -229,15 +229,15 @@
   width: 35px;
   height: 35px;
   margin-bottom: 25px;
-  padding:5px;
+  padding: 5px;
   position: relative;
   outline: none;
   border: none;
 }
 
-.like-icon{
+.like-icon {
   position: absolute;
-  inset:0;
+  inset: 0;
 }
 .sparks {
   opacity: 0;
@@ -390,7 +390,7 @@
   transform: scaleX(1);
 }
 
-.save-button:focus{
+.save-button:focus {
   outline: none;
   box-shadow: 2px 2px 0 var(--accent-color);
 }
@@ -430,14 +430,13 @@
 
 .dialog__form {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   row-gap: 30px;
-
 }
 
-.dialog__info{
+.dialog__info {
   display: flex;
-  gap:20px;
+  gap: 20px;
 }
 
 .dialog__text {
@@ -457,8 +456,7 @@ flex-direction: column;
   max-height: 38px;
 }
 
-
-.floppy-image-big{
+.floppy-image-big {
   align-self: center;
   --floppy-size: 39px;
 }
@@ -468,12 +466,11 @@ flex-direction: column;
 }
 
 @media (width < 376px) {
-
-  .dialog{
+  .dialog {
     max-width: 341px;
   }
 
-  .dialog__button{
+  .dialog__button {
     max-width: 257px;
   }
   .main__section {
