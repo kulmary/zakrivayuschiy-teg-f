@@ -1,1 +1,37 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-style: Inter, sans-serif;
+  --accent-font-style: "Press Start 2P", Arial;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #fff;
+    --accent-color: #000;
+    --button-text-color: #fff;
+    --heart-color: #000;
+    --sparks-color: #ff0000;
+    --headings-font-weight: 700;
+    --paragraph-font-weight: 400;
+    --gradient-color: #d3d3d3;
+    --gradient-color-start: #e7e7e7;
+    --gradient-color-end: #1a1a1a;
+    --gradient-point-start: 0.01%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000;
+    --accent-color: #00cc14;
+    --button-text-color: #00cc14;
+    --heart-color: #00cc14;
+    --sparks-color: #ff0000;
+    --headings-font-weight: 785;
+    --paragraph-font-weight: 465;
+    --gradient-color: #000;
+    --gradient-color-start: #007f0c;
+    --gradient-color-end: #004306;
+    --gradient-point-start: 0px;
+  }
+}
