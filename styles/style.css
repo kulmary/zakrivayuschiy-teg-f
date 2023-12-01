@@ -59,7 +59,7 @@
   justify-self: center;
   padding-left: 120.5px;
   padding-right: 120.5px;
-  width: clamp(23.438rem, 16.373rem + 33.908vw, 43.5rem);
+  width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
   /*min-width: 48.3%;*/
   border: 2px solid var(--accent-color);
 }
@@ -138,8 +138,8 @@
   .header {
     width: 100%;
     padding-top: 120px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 
@@ -163,7 +163,7 @@
 
   align-items: flex-start;
   border: 2px solid var(--accent-color);
-  width: clamp(23.438rem, 16.373rem + 33.908vw, 43.5rem);
+  width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
 }
 
 .main__section-heading {
@@ -175,6 +175,10 @@
 
 .main__section-paragraph {
   margin: 27px 25px;
+}
+
+.main__section-paragraph:nth-of-type(2){
+  margin-top: 0;
 }
 
 .image {
